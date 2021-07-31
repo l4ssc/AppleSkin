@@ -1,29 +1,5 @@
-<img src="https://www.ryanliptak.com/images/appleskin.png" width="32" /> [AppleSkin](https://minecraft.curseforge.com/projects/appleskin)
-===========
+A fork of [AppleSkin](https://github.com/squeek502/AppleSkin/tree/1.12) for 1.12 that adapts the tooltips for Polyphony.
 
-Minecraft mod that adds various food-related HUD improvements formerly provided by [AppleCore](https://github.com/squeek502/AppleCore) (basically, AppleCore without the core).
-
-### Features
-
-* Adds food value information to tooltips:
-
-![](https://i.imgur.com/furoAAi.png)
-
-* Adds a visualization of saturation and exhaustion to the HUD:
-
-![](https://zippy.gfycat.com/ShimmeringYearlyCicada.gif)
-
-* Adds a visualization of potential hunger/saturation restored while holding food:
-
-![](https://zippy.gfycat.com/PowerfulDeafeningHarvestmen.gif)
-
-* Adds hunger/saturation/exhaustion info to the debug overlay (F3)
-* Syncs the value of saturation and exhaustion to the client.
-
----
-
-### Building AppleSkin
-1. Clone the repository
-2. Open a command line and execute ```gradlew build```
-
-Note: To give the build a version number, use ```gradlew build -Pversion=<version>``` instead (example: ```gradlew build -Pversion=1.0.0```).
+## Features
+* Change the hunger display into a heart display
+* Remove the saturation display
